@@ -1,3 +1,13 @@
+## Custom-Script do Help Center
+Este guia foi criado para ajudar você a modificar o estilo e o comportamento do Help Center usando CSS e JavaScript personalizados. Vamos cobrir desde a configuração inicial até o processo de publicação das mudanças. Pronto para começar?
+
+### Visão Geral
+O custom-script permite ajustes no visual e nas funcionalidades do Help Center, trazendo flexibilidade para adaptar o site às necessidades dos usuários.
+
+Aqui você aprenderá a clonar, configurar e publicar suas modificações. Vamos explorar a estrutura do projeto e os comandos principais.
+
+
+
 
 # Guia Completo custom-script para Help Center
 O **custom-script** permique que, tanto o visual, quanto o comportamento do Help Center, sejam modificados através de scripts CSS e JS customizados.
