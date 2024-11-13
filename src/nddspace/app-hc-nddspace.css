@@ -1,0 +1,109 @@
+/* --- IMPORTS --- */
+
+/* BASE */
+@import url("../css/base/_base.css");
+@import url("../css/base/_typography.css");
+
+/* LAYOUT */
+@import url("../css/layout/_banner.css");
+@import url("../css/layout/_breadcrumbs.css");
+@import url("../css/layout/_code.css");
+@import url("../css/layout/_expand.css");
+@import url("../css/layout/_header.css");
+@import url("../css/layout/_images.css");
+@import url("../css/layout/_lists.css");
+@import url("../css/layout/_main-content.css");
+@import url("../css/layout/_panels.css");
+@import url("../css/layout/_tiles.css");
+
+/* COMPONENTS */
+@import url("../css/components/_header-bar.css");
+@import url("../css/components/_layout.css");
+@import url("../css/components/_article-feedback.css");
+
+/* --- IMPORTS --- */
+
+:root {
+  --ndd-space-primary-color: #1EC1A6;
+  --ndd-space-secondary-color: #292929;
+  --ndd-space-third-color: #7944E0;
+  --ndd-space-link-hover-color: #1BAE95;
+}
+
+/* --- FIRST LINK --- 
+li.render-links--link:nth-child(1) {
+  background-color: var(--ndd-dark-color);
+}
+
+li.render-links--link:nth-child(1):hover {
+  background-color: var(--ndd-dark-hover-color);
+  -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}*/
+
+/* --- SECOND LINK --- 
+li.render-links--link:nth-child(2) {
+  background-color: var(--ndd-space-primary-color);
+}
+li.render-links--link:nth-child(2):hover {
+  background-color: var(--ndd-space-link-hover-color);
+  -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}*/
+
+/* ---------------------- HEADER ---------------------- */
+
+/* ---------------------- TILES ---------------------- */
+
+/*h3.tile__headline {
+  color: var(--ndd-space-secondary-color);
+}*/
+
+/* --- TILES HELP CATEGORY --- */
+
+/*@media (min-width: 768px) {
+  ul[aria-labelledby="Precisodeajuda"] > li.tile {
+    grid-column: span 3 / span 3;
+  }
+}
+
+ul[aria-labelledby="Precisodeajuda"] > li.tile--spacious {
+  align-items: center;
+  color: var(--ndd-text-color);
+}
+
+ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
+  color: var(--ndd-text-color);
+}*/
+
+/* --- TILES HELP CATEGORY --- */
+
+/* --- TILES SECURITY CATEGORY --- */
+/*@media (min-width: 768px) {
+  ul[aria-labelledby="Segurançaecompliance"] > li.tile {
+    grid-column: span 3;
+  }
+}
+
+ul[aria-labelledby="Segurançaecompliance"] > li.tile--spacious {
+  align-items: center;
+  color: var(--ndd-text-color);
+}
+
+ul[aria-labelledby="Segurançaecompliance"] h3.tile__headline {
+  color: var(--ndd-text-color);
+}*/
+
+/* --- TILES SECURITY CATEGORY --- */
+
+/* ---------------------- TILES ---------------------- */
+
+/* ---------------------- CONTENT ---------------------- */
+
+/*strong > span[data-colorid] {
+  color: var(--ndd-space-primary-color);
+}*/
+
+/* ---------------------- CONTENT ---------------------- */

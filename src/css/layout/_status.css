@@ -1,0 +1,19 @@
+.aui-lozenge {
+  border-radius: var(--ndd-size-tyne);
+  padding: var(--ndd-size-tyne) var(--ndd-size-small);
+}
+
+.aui-lozenge-current {
+  color: var(--ndd-mustard100-color);
+  background-color: var(--ndd-mustard10-color);
+}
+
+.aui-lozenge-error {
+  color: var(--ndd-red100-color);
+  background-color: var(--ndd-red10-color);
+}
+
+.aui-lozenge-success{
+  color: var(--ndd-green100-color);
+  background-color: var(--ndd-green10-color);
+}

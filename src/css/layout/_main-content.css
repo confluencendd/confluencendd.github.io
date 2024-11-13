@@ -1,0 +1,23 @@
+div.hc-main-wrapper {
+  background-color: var(--ndd-gray100-color);
+}
+
+main.vp-container-narrow {
+  max-width: 1366px;
+}
+
+div.vp-article {
+  background-color: var(--ndd-white-color);
+}
+
+.vp-article__content-panel {
+  background-color: var(--ndd-white-color);
+}
+
+.vp-search-page {
+  background-color: var(--ndd-white-color);
+}
+
+hr {
+  margin: calc(var(--ndd-size-medium) * 2) auto !important;
+}

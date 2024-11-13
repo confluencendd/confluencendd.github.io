@@ -1,0 +1,58 @@
+{
+  "negative_feedback_options": {
+    "pt": [
+      "Tive dificuldade para entender",
+      "Não contém as informações que eu preciso",
+      "Encontrei informações incorretas",
+      "Encontrei instruções desatualizadas"
+    ],
+    "en": [
+      "I had difficulty understanding",
+      "It does not contain the information I need",
+      "I found incorrect information",
+      "I found outdated instructions"
+    ],
+    "es": [
+      "Tuve dificultad para entender",
+      "No contiene la información que necesito",
+      "Encontré información incorrecta",
+      "Encontré instrucciones desactualizadas"
+    ],
+    "it": [
+      "Ho avuto difficoltà a capire",
+      "Non contiene le informazioni di cui ho bisogno",
+      "Ho trovato informazioni errate",
+      "Ho trovato istruzioni obsolete"
+    ]
+  },
+  "positive_feedback_options": {
+    "pt": [
+      "Foi fácil de entender o conteúdo",
+      "Realizei minha tarefa",
+      "Resolvi o meu problema",
+      "Encontrei as informações com facilidade",
+      "Aprendi algo novo"
+    ],
+    "en": [
+      "The content was easy to understand",
+      "I completed my task",
+      "I solved my problem",
+      "I found the information easily",
+      "I learned something new"
+    ],
+    "es": [
+      "El contenido fue fácil de entender",
+      "Realicé mi tarea",
+      "Resolví mi problema",
+      "Encontré la información con facilidad",
+      "Aprendí algo nuevo"
+    ],
+    "it": [
+      "Il contenuto è stato facile da capire",
+      "Ho completato il mio compito",
+      "Ho risolto il mio problema",
+      "Ho trovato le informazioni facilmente",
+      "Ho imparato qualcosa di nuovo"
+    ]
+  }
+}

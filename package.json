@@ -1,0 +1,34 @@
+{
+  "name": "custom-scripts",
+  "version": "1.0.0",
+  "scripts": {
+    "nddkubo-build": "parcel build src/nddkubo/app-hc-nddkubo.js src/nddkubo/app-hc-nddkubo.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddkubo-dev": "parcel watch src/nddkubo/app-hc-nddkubo.js src/nddkubo/app-hc-nddkubo.css --dist-dir dev/nddkubo",
+    
+    "nddorbix-build": "parcel build src/nddorbix/app-hc-nddorbix.js src/nddorbix/app-hc-nddorbix.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddorbix-dev": "parcel watch src/nddorbix/app-hc-nddorbix.js src/nddorbix/app-hc-nddorbix.css --dist-dir dev/nddorbix",
+    
+    "nddprint-build": "parcel build src/nddprint/app-hc-nddprint.js src/nddprint/app-hc-nddprint.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddprint-dev": "parcel watch src/nddprint/app-hc-nddprint.js src/nddprint/app-hc-nddprint.css --dist-dir dev/nddprint",
+    
+    "nddspace-build": "parcel build src/nddspace/app-hc-nddspace.js src/nddspace/app-hc-nddspace.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddspace-dev": "parcel watch src/nddspace/app-hc-nddspace.js src/nddspace/app-hc-nddspace.css --dist-dir dev/nddspace",
+    
+    "nddvalidacao-build": "parcel build src/validacao/app-hc-validacao.js src/validacao/app-hc-validacao.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddvalidacao-dev": "parcel watch  src/validacao/app-hc-validacao.css --dist-dir Z:\\",
+    
+    "nddtestes-build": "parcel build src/testes/app-hc-testes.js src/testes/app-hc-testes.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddtestes-dev": "parcel watch src/testes/app-hc-testes.js src/testes/app-hc-testes.css --dist-dir Z:\\",
+
+    "nddall-build": "parcel build src/*/*.js src/*/*.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddall-dev": "parcel watch src/*/*.js src/*/*.css --dist-dir Z:\\"
+    
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

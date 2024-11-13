@@ -1,0 +1,106 @@
+{
+  "testes": {
+    "pt": {
+      "Acesse o NDD Orbix": {
+        "text": "Acesse o NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Vendas"
+      }
+    },
+    "en": {
+      "Acesse o NDD Orbix": {
+        "text": "Try NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Sales"
+      }
+    },
+    "es": {
+      "Acesse o NDD Orbix": {
+        "text": "Acceda a NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Ventas"
+      }
+    }
+  },
+  "nddorbix": {
+    "pt": {
+      "Acesse o NDD Orbix": {
+        "text": "Acesse o NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Vendas"
+      },
+      "Portal NDD Orbix": {
+        "text": "Portal NDD Orbix"
+      },
+      "Suporte": {
+        "text": "Suporte"
+      }
+    },
+    "en": {
+      "Acesse o NDD Orbix": {
+        "text": "Try NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Sales"
+      },
+      "Portal NDD Orbix": {
+        "text": "NDD Orbix portal"
+      },
+      "Suporte": {
+        "text": "Support"
+      }
+    },
+    "es": {
+      "Acesse o NDD Orbix": {
+        "text": "Acceda a NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Ventas"
+      },
+      "Portal NDD Orbix": {
+        "text": "Portal NDD Orbix"
+      },
+      "Suporte": {
+        "text": "Soporte"
+      }
+    }
+  },
+  "nddprint": {
+    "pt": {
+      "Suporte": {
+        "text": "Suporte"
+      }
+    },
+    "en": {
+      "Suporte": {
+        "text": "Support"
+      }
+    },
+    "es": {
+      "Suporte": {
+        "text": "Soporte"
+      }
+    }
+  },
+  "kubo": {
+    "pt": {
+      "Vendas": {
+        "text": "Vendas"
+      }
+    },
+    "en": {
+      "Vendas": {
+        "text": "Sales"
+      }
+    },
+    "es": {
+      "Vendas": {
+        "text": "Ventas"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+:root {
+  --ndd-white-color: #ffffff;
+  --ndd-text-color: #4e4e4e;
+  --ndd-links-color: #0065ff;
+
+  --ndd-blue10-color: #e9f7fd;
+  --ndd-blue100-color: #24b5ed;
+  --ndd-blue120-color: #1D92BF;
+
+  --ndd-yellow10-color: #fffae8;
+  --ndd-yellow30-color: #fff1bc;
+  --ndd-yellow100-color: #fed222;
+  --ndd-mustard10-color: #fff7e8;
+  --ndd-mustard100-color: #feac22;
+
+  --ndd-red10-color: #feebec;
+  --ndd-red30-color: #fcc2c8;
+  --ndd-red100-color: #f53649;
+  --ndd-red130-color: #AC2633;
+
+  --ndd-green10-color: #e5f5f2;
+  --ndd-green100-color: #009e7e;
+
+  --ndd-gray90-color: #f9f9f9;
+  --ndd-gray100-color: #f0f0f0;
+  --ndd-gray110-color: #a8a8a8;
+  --ndd-gray130-color: #888888;
+
+  --ndd-purple10-color: #eae3ff;
+  --ndd-purple100-color: #480f7a;
+
+  --ndd-dark-color: #1F2533;
+  --ndd-dark-hover-color: #151c2b;
+
+  --ndd-size-tyne: 4px;
+  --ndd-size-small: 8px;
+  --ndd-size-medium: 16px;
+  --ndd-size-large: 24px;
+  --ndd-size-xlarge: 48px;
+  --ndd-special-font: "MuseoModerno", sans-serif;
+  --ndd-primary-font: "Poppins", sans-serif;
+}

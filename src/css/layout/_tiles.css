@@ -1,0 +1,35 @@
+li[data-vp-id="portal-space-tile"] {
+  flex-direction: row;
+  align-items: start;
+  border-radius: var(--ndd-size-medium);
+  padding: 20px 20px;
+  font-size: 14px;
+  border: 1px solid var(--ndd-gray100-color);
+}
+
+li[data-vp-id="portal-space-tile"]:hover {
+  border: 1px solid var(--ndd-text-color);
+}
+
+img.tile__image {
+  width: 100%;
+  max-width: 50px;
+}
+
+h3.tile__headline {
+  font-size: 18px;
+  text-align: left;
+  font-family: var(--ndd-primary-font);
+}
+
+p.tile__description {
+  color: var(--ndd-text-color);
+  text-align: justify;
+}
+
+@media (max-width: 1366px) {
+  ul.md\:gap-y-8 {
+    row-gap: var(--ndd-size-medium);
+    column-gap: var(--ndd-size-medium);
+  }
+}

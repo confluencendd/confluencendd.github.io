@@ -1,0 +1,11 @@
+figure.vp-image img {
+  border: none;
+  border-radius: var(--ndd-size-tyne);
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.15) 4.5px 4.5px 4.5px 0px;
+}
+
+.vp-inline-image img {
+  block-size: 20px;
+  min-block-size: 16px;
+}

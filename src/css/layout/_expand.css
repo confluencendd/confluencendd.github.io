@@ -1,0 +1,8 @@
+.expand-container {
+  border-radius: var(--ndd-size-tyne);
+  margin: var(--ndd-size-small) 0;
+}
+summary.expand-control {
+  font-size: 18px;
+  color: var(--ndd-text-color);
+}

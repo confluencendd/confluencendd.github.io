@@ -1,0 +1,58 @@
+/* --- MENU WITH LAYOUT --- */
+div.columnLayout.two-equal,
+div.columnLayout.three-equal,
+div.columnLayout.two-right-sidebar,
+div.columnLayout.two-left-sidebar,
+div.columnLayout.three-with-sidebars {
+  margin-bottom: 0 !important;
+}
+
+div.two-equal > .cell.normal,
+div.three-equal > .cell.normal,
+div.two-right-sidebar > .cell.normal,
+div.two-right-sidebar > .cell.aside,
+div.two-left-sidebar > .cell.normal,
+div.two-left-sidebar > .cell.aside,
+div.three-with-sidebars > .cell.normal,
+div.three-with-sidebars > .cell.sidebars {
+  border: 1px solid var(--ndd-gray100-color);
+  padding: 24px;
+  border-radius: var(--ndd-size-small);
+  -webkit-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+div.two-equal > .cell.normal:hover,
+div.three-equal > .cell.normal:hover,
+div.two-right-sidebar > .cell.normal:hover,
+div.two-right-sidebar > .cell.aside:hover,
+div.two-left-sidebar > .cell.normal:hover,
+div.two-left-sidebar > .cell.aside:hover,
+div.three-with-sidebars > .cell.normal:hover,
+div.three-with-sidebars > .cell.sidebars:hover {
+  background-color: var(--ndd-gray90-color);
+}
+
+div.two-equal > .cell.normal figure.vp-image.image-center,
+div.three-equal > .cell.normal figure.vp-image.image-center,
+div.two-right-sidebar > .cell.normal figure.vp-image.image-center,
+div.two-right-sidebar > .cell.aside figure.vp-image.image-center,
+div.two-left-sidebar > .cell.normal figure.vp-image.image-center,
+div.two-left-sidebar > .cell.aside figure.vp-image.image-center,
+div.three-with-sidebars > .cell.normal figure.vp-image.image-center,
+div.three-with-sidebars > .cell.sidebars figure.vp-image.image-center {
+  justify-content: center;
+  display: flex;
+}
+
+div.two-equal > .cell.normal img,
+div.three-equal > .cell.normal img,
+div.two-right-sidebar > .cell.normal img,
+div.two-right-sidebar > .cell.aside img,
+div.two-left-sidebar > .cell.normal img,
+div.two-left-sidebar > .cell.aside img,
+div.three-with-sidebars > .cell.normal img,
+div.three-with-sidebars > .cell.sidebars img {
+  box-shadow: none;
+}

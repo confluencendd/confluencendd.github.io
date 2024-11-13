@@ -1,0 +1,53 @@
+{
+  "testes": {
+    "pt": {
+      "https://helpcenter-testes.ndd.tech/queremos-escutar-voc/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/parceiros-e-canais/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/blog-e-mais-conte-dos/Working-version/": "https://ndd.tech/blog/category/provedores-de-outsourcing/",
+      "https://helpcenter-testes.ndd.tech/falar-com-suporte/Working-version/": "https://suporte.ndd.tech/"
+    },
+    "en": {
+      "https://helpcenter-testes.ndd.tech/queremos-escutar-voc/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/parceiros-e-canais/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/blog-e-mais-conte-dos/Working-version/": "https://ndd.tech/blog/category/provedores-de-outsourcing/",
+      "https://helpcenter-testes.ndd.tech/falar-com-suporte/Working-version/": "https://suporte.ndd.tech/"
+    },
+    "es": {
+      "https://helpcenter-testes.ndd.tech/queremos-escutar-voc/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/parceiros-e-canais/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/blog-e-mais-conte-dos/Working-version/": "https://ndd.tech/blog/category/provedores-de-outsourcing/",
+      "https://helpcenter-testes.ndd.tech/falar-com-suporte/Working-version/": "https://suporte.ndd.tech/"
+    }
+  },
+  "nddorbix": {
+    "pt": {
+      "https://helpcenter-testes.ndd.tech/queremos-escutar-voc/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/parceiros-e-canais/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/blog-e-mais-conte-dos/Working-version/": "https://ndd.tech/blog/category/provedores-de-outsourcing/",
+      "https://helpcenter-nddorbix.ndd.tech/pt/falar-com-suporte/Current/": "https://suporte.ndd.tech/"
+    },
+    "en": {
+      "https://helpcenter-testes.ndd.tech/queremos-escutar-voc/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/parceiros-e-canais/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/blog-e-mais-conte-dos/Working-version/": "https://ndd.tech/blog/category/provedores-de-outsourcing/",
+      "https://helpcenter-nddorbix.ndd.tech/en/falar-com-suporte/Current/": "https://suporte.ndd.tech/"
+    },
+    "es": {
+      "https://helpcenter-testes.ndd.tech/queremos-escutar-voc/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/parceiros-e-canais/Working-version/": "https://portal.nddorbix.com/",
+      "https://helpcenter-testes.ndd.tech/blog-e-mais-conte-dos/Working-version/": "https://ndd.tech/blog/category/provedores-de-outsourcing/",
+      "https://helpcenter-nddorbix.ndd.tech/es/falar-com-suporte/Current/": "https://suporte.ndd.tech/"
+    }
+  },
+  "nddkubo": {
+    "pt": {
+      "https://helpcenter-kubo.ndd.tech/pt/falar-com-suporte/Current/": "https://suporte.ndd.tech/"
+    },
+    "en": {
+      "https://helpcenter-kubo.ndd.tech/en/falar-com-suporte/Current/": "https://suporte.ndd.tech/"
+    },
+    "es": {
+      "https://helpcenter-kubo.ndd.tech/es/falar-com-suporte/Current/": "https://suporte.ndd.tech/"
+    }
+  }
+}

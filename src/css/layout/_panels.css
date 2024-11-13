@@ -1,0 +1,41 @@
+.panel-macro {
+  border-radius: var(--ndd-size-tyne);
+  margin-top: var(--ndd-size-small);
+  margin-bottom: var(--ndd-size-small);
+  padding: 10px;
+  overflow: auto;
+}
+
+.panel-macro--info {
+  background-color: var(--ndd-blue10-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-blue100-color);
+}
+
+.panel-macro--panel-note-adf {
+  background-color: var(--ndd-purple10-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-purple100-color);
+}
+
+.panel-macro--tip {
+  background-color: var(--ndd-green10-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-green100-color);
+}
+
+.panel-macro--note {
+  background-color: var(--ndd-yellow10-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-yellow100-color);
+}
+
+.panel-macro--warning {
+  background-color: var(--ndd-red10-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-red100-color);
+}
+
+.panel-macro--panel {
+  background-color: var(--ndd-gray100-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-gray130-color);
+}
+
+.panel-macro p:not(:first-child) {
+  margin-top: 12px;
+}

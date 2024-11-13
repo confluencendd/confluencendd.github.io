@@ -1,0 +1,31 @@
+/* --- IMPORTS --- */
+
+/* BASE */
+@import url("../css/base/_base.css");
+@import url("../css/base/_typography.css");
+
+/* LAYOUT */
+@import url("../css/layout/_banner.css");
+@import url("../css/layout/_breadcrumbs.css");
+@import url("../css/layout/_code.css");
+@import url("../css/layout/_expand.css");
+@import url("../css/layout/_header.css");
+@import url("../css/layout/_images.css");
+@import url("../css/layout/_lists.css");
+@import url("../css/layout/_main-content.css");
+@import url("../css/layout/_panels.css");
+@import url("../css/layout/_tiles.css");
+
+/* COMPONENTS */
+@import url("../css/components/_header-bar.css");
+@import url("../css/components/_layout.css");
+@import url("../css/components/_article-feedback.css");
+
+/* --- IMPORTS --- */
+
+:root {
+  --ndd-print-primary-color: #0062CC;
+  --ndd-print-secondary-color: #0C3378;
+  --ndd-print-third-color: #25C2F2;
+  --ndd-print-link-hover-color: #0058B8;
+}

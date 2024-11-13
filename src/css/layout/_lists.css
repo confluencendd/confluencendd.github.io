@@ -1,0 +1,6 @@
+.article__content ol,
+.article__content ul {
+  margin-top: var(--ndd-size-small);
+  margin-bottom: var(--ndd-size-small);
+  margin-left: calc(var(--ndd-size-medium) * 2);
+}

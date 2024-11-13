@@ -1,0 +1,142 @@
+{
+  "testes": {
+    "pt": {
+      "Informações complementares": {
+        "text": "Informações complementares"
+      },
+      "Preciso de ajuda": {
+        "text": "Preciso de ajuda"
+      },
+      "Segurança e compliance": {
+        "text": "Segurança e compliance"
+      }
+    },
+    "en": {
+      "Informações complementares": {
+        "text": "Further information"
+      },
+      "Preciso de ajuda": {
+        "text": "I need some help"
+      },
+      "Segurança e compliance": {
+        "text": "Security and compliance"
+      }
+    },
+    "es": {
+      "Informações complementares": {
+        "text": "Más información"
+      },
+      "Preciso de ajuda": {
+        "text": "Busco ayuda"
+      },
+      "Segurança e compliance": {
+        "text": "Seguridad y cumplimiento"
+      }
+    }
+  },
+  "nddorbix": {
+    "pt": {
+      "Informações complementares": {
+        "text": "Informações complementares"
+      },
+      "Preciso de ajuda": {
+        "text": "Preciso de ajuda"
+      },
+      "Segurança e compliance": {
+        "text": "Segurança e compliance"
+      }
+    },
+    "en": {
+      "Informações complementares": {
+        "text": "Further information"
+      },
+      "Preciso de ajuda": {
+        "text": "I need help"
+      },
+      "Segurança e compliance": {
+        "text": "Security and compliance"
+      }
+    },
+    "es": {
+      "Informações complementares": {
+        "text": "Más información"
+      },
+      "Preciso de ajuda": {
+        "text": "Busco ayuda"
+      },
+      "Segurança e compliance": {
+        "text": "Seguridad y cumplimiento"
+      }
+    }
+  },
+  "nddprint": {
+    "pt": {
+      "Manuais": {
+        "text": "Manuais"
+      },
+      "Guias": {
+        "text": "Guias"
+      },
+      "Ferramentas": {
+        "text": "Ferramentas"
+      },
+      "Preciso de ajuda": {
+        "text": "Preciso de ajuda"
+      },
+      "Terminais de liberação e Digital Shift": {
+        "text": "Terminais de liberação e Digital Shift"
+      }
+    },
+    "en": {
+      "Manuais": {
+        "text": "Manuals"
+      },
+      "Guias": {
+        "text": "Guides"
+      },
+      "Ferramentas": {
+        "text": "Tools"
+      },
+      "Preciso de ajuda": {
+        "text": "I need some help"
+      },
+      "Terminais de liberação e Digital Shift": {
+        "text": "Release terminals and Digital Shift"
+      }
+    },
+    "es": {
+      "Manuais": {
+        "text": "Manuales"
+      },
+      "Guias": {
+        "text": "Guías"
+      },
+      "Ferramentas": {
+        "text": "Herramientas"
+      },
+      "Preciso de ajuda": {
+        "text": "Busco ayuda"
+      },
+      "Terminais de liberação e Digital Shift": {
+        "text": "Terminales de liberación y Digital Shift"
+      }
+    }
+  },
+  "kubo": {
+    "pt": {
+      "Preciso de ajuda": {
+        "text": "Preciso de ajuda"
+      }
+    },
+    "en": {
+      "Preciso de ajuda": {
+        "text": "I need help"
+      }
+    },
+    "es": {
+      "Preciso de ajuda": {
+        "text": "Busco ayuda"
+      }
+    }
+  }
+}
