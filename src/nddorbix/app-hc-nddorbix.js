@@ -23,7 +23,7 @@ const commonParams = { product: currentProduct, language: languagePicked };
 
 handleRoute({
     functions: {
-        //removeOldComponent,
+        removeOldComponent,
         renderArticleFeedbackComponent,
         translateTiles,
         translateCategories,
