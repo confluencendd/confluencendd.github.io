@@ -5,10 +5,12 @@ export function removeOldComponent() {
     const html_paragraphs = Array.from(document.querySelectorAll("p"));
     const paragraphToRemove = html_paragraphs.find(text => text.innerText === '{{component-feedback-article}}');
 
-    if (paragraphToRemove) {
+    if (!paragraphToRemove) {
 
-        paragraphToRemove.remove();
-        console.warn("O parágrafo {{component-feedback-article}} foi removido nesta página");
-
+        console.warn("O parágrafo {{component-feedback-article}} não existe nesta página");
+        return;
     }
+
+    paragraphToRemove.remove();
+    console.warn("O parágrafo {{component-feedback-article}} foi removido nesta página");
 }
