@@ -5,5 +5,5 @@ export function getCurrentLanguage() {
         return 'pt'; // Default to Portuguese if language was not found
     }
 
-    return buttonChangeLanguage?.getAttribute('lang');
+    return buttonChangeLanguage.getAttribute('lang');
 }
