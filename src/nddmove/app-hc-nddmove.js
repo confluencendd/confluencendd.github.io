@@ -5,6 +5,9 @@ import { redirectLinks } from '../js/utils/redirect';
 import { handleRoute } from '../js/utils/route'
 import { removeOldComponent } from '../js/utils/removeOldComponent'
 
+// Funções de tradução dos textos do Help Center
+import { translatePlaceholderSearchBar } from '../js/utils/placeholder';
+
 import { formatBreadcrumbs } from '../js/utils/breadcrumbs';
 import { createTimeToReadComponent } from '../js/components/header-bar/time-to-read';
 
@@ -21,6 +24,7 @@ handleRoute({
         renderArticleFeedbackComponent,
         redirectLinks,
         formatBreadcrumbs,
+        translatePlaceholderSearchBar,
         createTimeToReadComponent
     },
     params: {
