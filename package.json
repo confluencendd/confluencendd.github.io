@@ -2,6 +2,9 @@
   "name": "custom-scripts",
   "version": "1.0.0",
   "scripts": {
+    "nddmove-build": "parcel build src/nddmove/app-hc-nddmove.js src/nddmove/app-hc-nddmove.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddmove-dev": "parcel watch src/nddmove/app-hc-nddmove.js src/nddmove/app-hc-nddmove.css --dist-dir dev/nddmove",
+
     "nddkubo-build": "parcel build src/nddkubo/app-hc-nddkubo.js src/nddkubo/app-hc-nddkubo.css --dist-dir public/ --no-source-maps --no-cache",
     "nddkubo-dev": "parcel watch src/nddkubo/app-hc-nddkubo.js src/nddkubo/app-hc-nddkubo.css --dist-dir dev/nddkubo",
     

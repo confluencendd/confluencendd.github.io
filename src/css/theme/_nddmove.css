@@ -1,0 +1,45 @@
+:root {
+    --ndd-move-primary-color: #00B34D;
+    --ndd-move-secondary-color: #292929;
+    --ndd-move-third-color: #E5F7ED;
+  }
+  
+  /* --- LINKS --- */
+  li.render-links--link {
+    background-color: var(--ndd-dark-color);
+  }
+  
+  li.render-links--link:hover {
+    background-color: var(--ndd-dark-hover-color);
+    -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  /* --- LINK DESTACADO --- 
+  li.render-links--link:nth-child(4) {
+    background-color: var(--ndd-kubo-primary-color);
+  }
+  li.render-links--link:nth-child(4):hover {
+    background-color: var(--ndd-kubo-link-hover-color);
+    -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }*/
+
+  
+  /* ---------------------- HEADER ---------------------- */
+  
+  /* ---------------------- TILES ---------------------- */
+
+
+  
+  /* ---------------------- TILES ---------------------- */
+  
+  /* ---------------------- CONTENT ---------------------- */
+  
+  /* strong > span[data-colorid] {
+    color: var(--ndd-move-secondary-color);
+  } */
+  
+  /* ---------------------- CONTENT ---------------------- */
