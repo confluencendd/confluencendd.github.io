@@ -18,6 +18,8 @@ import { renderArticleFeedbackComponent } from '../js/components/article-feedbac
 
 // Parâmetros para execução das funções
 const languagePicked = getCurrentLanguage();
+console.log(languagePicked);
+
 const currentProduct = getCurrentProduct();
 const commonParams = { product: currentProduct, language: languagePicked };
 
