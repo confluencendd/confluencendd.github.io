@@ -6,9 +6,6 @@ import { handleRoute } from '../js/utils/route'
 import { removeOldComponent } from '../js/utils/removeOldComponent'
 
 // Funções de tradução dos textos do Help Center
-import { translateTiles } from '../js/components/translation/tiles';
-import { translateCategories } from '../js/components/translation/categories';
-import { translateHeaderLinks } from '../js/components/translation/headerLinks';
 import { translatePlaceholderSearchBar } from '../js/utils/placeholder';
 
 import { formatBreadcrumbs } from '../js/utils/breadcrumbs';
@@ -26,9 +23,6 @@ handleRoute({
     functions: {
         removeOldComponent,
         renderArticleFeedbackComponent,
-        translateTiles,
-        translateCategories,
-        translateHeaderLinks,
         translatePlaceholderSearchBar,
         redirectLinks,
         formatBreadcrumbs,
@@ -36,9 +30,6 @@ handleRoute({
     },
     params: {
         renderArticleFeedbackComponentParams: { language: languagePicked },
-        translateTilesParams: commonParams,
-        translateCategoriesParams: commonParams,
-        translateHeaderLinksParams: commonParams,
         redirectLinksParams: commonParams,
         translatePlaceholderSearchBarParams: { language: languagePicked },
         createTimeToReadComponentParams: { language: languagePicked }
