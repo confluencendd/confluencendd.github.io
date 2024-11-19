@@ -4,6 +4,9 @@
 @import url("../css/base/_base.css");
 @import url("../css/base/_typography.css");
 
+/* TEMA */
+@import url("../css/theme/_nddprint.css");
+
 /* LAYOUT */
 @import url("../css/layout/_banner.css");
 @import url("../css/layout/_breadcrumbs.css");
@@ -22,10 +25,3 @@
 @import url("../css/components/_article-feedback.css");
 
 /* --- IMPORTS --- */
-
-:root {
-  --ndd-print-primary-color: #0062CC;
-  --ndd-print-secondary-color: #0C3378;
-  --ndd-print-third-color: #25C2F2;
-  --ndd-print-link-hover-color: #0058B8;
-}

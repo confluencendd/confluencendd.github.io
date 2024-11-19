@@ -282,6 +282,10 @@
         "headline": "Release notes",
         "description": "Histórico de versões: novas funcionalidades, melhorias, correções e homologações."
       },
+      "Segurança e compliance": {
+        "headline": "Segurança e compliance",
+        "description": "Saiba como a NDD garante a segurança e o compliance dos seus dados."
+      },
       "Treinamentos": {
         "headline": "Treinamentos",
         "description": "Obtenha certificações com os treinamentos sobre o NDD Print oferecidos pelo NDD Academy."
@@ -320,6 +324,10 @@
         "headline": "Release notes",
         "description": "Version history: new features, improvements, fixes and approvals."
       },
+      "Segurança e compliance": {
+        "headline": "Security and compliance",
+        "description": "Learn how NDD ensures the security and compliance of your data."
+      },
       "Treinamentos": {
         "headline": "Trainings",
         "description": "Get certified with the NDD Print trainings offered by the NDD Academy."
@@ -354,6 +362,10 @@
       "Release notes": {
         "headline": "Release notes",
         "description": "Historial de versiones: nuevas funcionalidades, mejoras, correcciones y homologaciones."
+      },
+      "Segurança e compliance": {
+        "headline": "Seguridad y cumplimiento",
+        "description": "Descubra cómo NDD garantiza la seguridad y el cumplimiento de sus datos."
       },
       "Treinamentos": {
         "headline": "Trainings",

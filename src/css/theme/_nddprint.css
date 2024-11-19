@@ -1,0 +1,49 @@
+:root {
+  --ndd-print-primary-color: #0062CC;
+  --ndd-print-secondary-color: #0C3378;
+  --ndd-print-third-color: #25C2F2;
+  --ndd-print-link-hover-color: #0058B8;
+}
+
+/* --- LINKS --- */
+li.render-links--link {
+  background-color: var(--ndd-dark-color);
+}
+
+li.render-links--link:hover {
+  background-color: var(--ndd-dark-hover-color);
+  -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* --- LINK DESTACADO --- 
+li.render-links--link:nth-child(4) {
+  background-color: var(--ndd-kubo-primary-color);
+}
+li.render-links--link:nth-child(4):hover {
+  background-color: var(--ndd-kubo-link-hover-color);
+  -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}*/
+
+
+/* --- TILES HELP CATEGORY --- */
+
+@media (min-width: 768px) {
+  ul[aria-labelledby="$labelledby"] > li.tile {
+    grid-column: span 3 / span 3;
+  }
+}
+
+ul[aria-labelledby="$labelledby"] > li.tile--spacious {
+  align-items: center;
+  color: var(--ndd-text-color);
+}
+
+ul[aria-labelledby="$labelledby"] h3.tile__headline {
+  color: var(--ndd-text-color);
+}
+
+/* --- TILES HELP CATEGORY --- */
