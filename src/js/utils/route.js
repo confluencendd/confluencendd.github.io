@@ -19,7 +19,9 @@ export function handleRoute({ functions, params }) {
 
     if (functions.translatePlaceholderSearchBar) {
 
-        functions.translatePlaceholderSearchBar(params.translateHeaderLinksParams);
+        console.log(params);
+        
+        functions.translatePlaceholderSearchBar(params.translatePlaceholderSearchBarParams);
 
     }
 
