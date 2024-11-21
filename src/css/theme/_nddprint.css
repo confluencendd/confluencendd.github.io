@@ -7,11 +7,11 @@
 
 /* --- LINKS --- */
 li.render-links--link {
-  background-color: var(--ndd-dark-color);
+  background-color: var(--ndd-print-primary-color);
 }
 
 li.render-links--link:hover {
-  background-color: var(--ndd-dark-hover-color);
+  background-color: var(--ndd-print-link-hover-color);
   -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);

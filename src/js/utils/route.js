@@ -61,7 +61,7 @@ export function handleRoute({ functions, params }) {
 
         if (functions.translateCategories) {
 
-            functions.translateCategories(params.translateTilesParams);
+            functions.translateCategories(params.translateCategoriesParams);
 
         }
 
