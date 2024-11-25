@@ -37,10 +37,10 @@ handleRoute({
     },
     params: {
         renderArticleFeedbackComponentParams: { language: languagePicked },
-        translateTilesParams: commonParams,
-        translateCategoriesParams: commonParams,
-        translateHeaderLinksParams: commonParams,
-        redirectLinksParams: commonParams,
+        // translateTilesParams: commonParams,
+        // translateCategoriesParams: commonParams,
+        // translateHeaderLinksParams: commonParams,
+        // redirectLinksParams: commonParams,
         translatePlaceholderSearchBarParams: { language: languagePicked },
         createTimeToReadComponentParams: { language: languagePicked }
 
