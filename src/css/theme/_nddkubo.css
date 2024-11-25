@@ -2,8 +2,8 @@
     --ndd-kubo-primary-color: #F76466;
     --ndd-kubo-secondary-color: #FCBA6B;
     --ndd-kubo-third-color: #08ACCC;
-    --ndd-kubo-link-color: rgba(0,0,0,0.1);
-    --ndd-kubo-link-hover-color: rgba(0,0,0,0.2);
+    --ndd-kubo-link-color: rgba(0,0,0,0.2);
+    --ndd-kubo-link-hover-color: rgba(0,0,0,0.4);
     --ndd-kubo-link-highlight-color: var(--ndd-kubo-secondary-color);
     --ndd-kubo-link-highlight-hover-color: #E3A760;
   }
