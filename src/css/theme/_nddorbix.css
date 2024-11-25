@@ -2,9 +2,10 @@
   --ndd-orbix-primary-color: #9622b2;
   --ndd-orbix-secondary-color: #272d3d;
   --ndd-orbix-third-color: #f2e4f5;
-  --ndd-orbix-link-hover-color: #871FA1;
   --ndd-orbix-link-color: rgba(0,0,0,0.2);
   --ndd-orbix-link-hover-color: rgba(0,0,0,0.3);
+  --ndd-orbix-link-highlight-color: var(--ndd-orbix-primary-color);
+  --ndd-orbix-link-highlight-hover-color: #871FA1;
 }
 
 /* --- LINKS --- */
@@ -21,10 +22,10 @@ li.render-links--link:hover {
 
 /* --- LINK DESTACADO --- */
 li.render-links--link:nth-child(4) {
-  background-color: var(--ndd-orbix-primary-color);
+  background-color: var(--ndd-orbix-link-highlight-color);
 }
 li.render-links--link:nth-child(4):hover {
-  background-color: var(--ndd-orbix-link-hover-color);
+  background-color: var(--ndd-orbix-link-highlight-hover-color);
   -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
