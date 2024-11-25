@@ -3,30 +3,32 @@
   --ndd-orbix-secondary-color: #272d3d;
   --ndd-orbix-third-color: #f2e4f5;
   --ndd-orbix-link-hover-color: #871FA1;
+  --ndd-orbix-link-color: rgba(0,0,0,0.2);
+  --ndd-orbix-link-hover-color: rgba(0,0,0,0.3);
 }
 
-/* --- FIRST LINK --- 
-li.render-links--link:nth-child(1) {
-  background-color: var(--ndd-dark-color);
+/* --- LINKS --- */
+li.render-links--link {
+  background-color: var(--ndd-orbix-link-color);
 }
 
-li.render-links--link:nth-child(1):hover {
-  background-color: var(--ndd-dark-hover-color);
-  -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-  -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}*/
-
-/* --- SECOND LINK --- 
-li.render-links--link:nth-child(2) {
-  background-color: var(--ndd-orbix-primary-color);
-}
-li.render-links--link:nth-child(2):hover {
+li.render-links--link:hover {
   background-color: var(--ndd-orbix-link-hover-color);
   -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}*/
+}
+
+/* --- LINK DESTACADO --- */
+li.render-links--link:nth-child(4) {
+  background-color: var(--ndd-orbix-primary-color);
+}
+li.render-links--link:nth-child(4):hover {
+  background-color: var(--ndd-orbix-link-hover-color);
+  -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
 
 /* ---------------------- HEADER ---------------------- */
 
