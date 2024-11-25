@@ -2,16 +2,19 @@
     --ndd-kubo-primary-color: #F76466;
     --ndd-kubo-secondary-color: #FCBA6B;
     --ndd-kubo-third-color: #08ACCC;
-    --ndd-kubo-link-hover-color: #DE5A5C;
+    --ndd-kubo-link-color: rgba(0,0,0,0.1);
+    --ndd-kubo-link-hover-color: rgba(0,0,0,0.2);
+    --ndd-kubo-link-highlight-color: var(--ndd-kubo-secondary-color);
+    --ndd-kubo-link-highlight-hover-color: #E3A760;
   }
   
   /* --- LINKS --- */
   li.render-links--link {
-    background-color: var(--ndd-dark-color);
+    background-color: var(--ndd-kubo-link-color);
   }
   
   li.render-links--link:hover {
-    background-color: var(--ndd-dark-hover-color);
+    background-color: var(--ndd-kubo-link-hover-color);
     -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -19,10 +22,10 @@
   
   /* --- LINK DESTACADO --- */
   li.render-links--link:nth-child(4) {
-    background-color: var(--ndd-kubo-primary-color);
+    background-color: var(--ndd-kubo-link-highlight-color);
   }
   li.render-links--link:nth-child(4):hover {
-    background-color: var(--ndd-kubo-link-hover-color);
+    background-color: var(--ndd-kubo-link-highlight-hover-color);
     -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
