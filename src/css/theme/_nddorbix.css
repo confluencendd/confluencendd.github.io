@@ -3,7 +3,7 @@
   --ndd-orbix-secondary-color: #272d3d;
   --ndd-orbix-third-color: #f2e4f5;
   --ndd-orbix-link-color: rgba(0,0,0,0.2);
-  --ndd-orbix-link-hover-color: rgba(0,0,0,0.3);
+  --ndd-orbix-link-hover-color: rgba(0,0,0,0.4);
   --ndd-orbix-link-highlight-color: var(--ndd-orbix-primary-color);
   --ndd-orbix-link-highlight-hover-color: #871FA1;
 }

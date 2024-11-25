@@ -3,7 +3,7 @@
   --ndd-cargo-secondary-color: #071f36;
   --ndd-cargo-third-color: #224180;
   --ndd-cargo-link-color: rgba(0,0,0,0.2);
-  --ndd-cargo-link-hover-color: rgba(0,0,0,0.3);
+  --ndd-cargo-link-hover-color: rgba(0,0,0,0.4);
   --ndd-cargo-link-highlight-color: var(--ndd-cargo-primary-color);
   --ndd-cargo-link-highlight-hover-color: #b80000;
 }
