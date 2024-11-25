@@ -49,5 +49,10 @@
     "es": {
       "https://helpcenter-kubo.ndd.tech/es/falar-com-suporte/Current/": "https://suporte.ndd.tech/"
     }
+  },
+  "nddcargo": {
+    "pt": {
+      "https://helpcenter-nddcargo.ndd.tech/pt/falar-com-suporte/Current/": "https://suporte.ndd.tech/"
+    }
   }
 }

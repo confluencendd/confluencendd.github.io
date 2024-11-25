@@ -1,0 +1,61 @@
+:root {
+    --ndd-cargo-primary-color: #CC0000;
+    --ndd-cargo-secondary-color: #071F36;
+    --ndd-cargo-third-color: #224180;
+    --ndd-cargo-link-hover-color: #B80000;
+  }
+  
+  /* --- LINKS --- */
+  li.render-links--link {
+    background-color: var(--ndd-dark-color);
+  }
+  
+  li.render-links--link:hover {
+    background-color: var(--ndd-dark-hover-color);
+    -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  /* --- LINK DESTACADO --- 
+  li.render-links--link:nth-child(4) {
+    background-color: var(--ndd-cargo-primary-color);
+  }
+  li.render-links--link:nth-child(4):hover {
+    background-color: var(--ndd-cargo-link-hover-color);
+    -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }*/
+  
+  /* ---------------------- HEADER ---------------------- */
+  
+  /* ---------------------- TILES ---------------------- */
+  
+  /* --- TILES HELP CATEGORY --- */
+  
+  /*@media (min-width: 768px) {
+    ul[aria-labelledby="Precisodeajuda"] > li.tile {
+      grid-column: span 3 / span 3;
+    }
+  }*/
+  
+  ul[aria-labelledby="Precisodeajuda"] > li.tile--spacious {
+    align-items: center;
+    color: var(--ndd-text-color);
+  }
+  
+  ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
+    color: var(--ndd-text-color);
+  }
+  
+  /* ---------------------- TILES ---------------------- */
+  
+  /* ---------------------- CONTENT ---------------------- */
+  
+  /*strong > span[data-colorid] {
+    color: var(--ndd-cargo-primary-color);
+  }*/
+  
+  /* ---------------------- CONTENT ---------------------- */
+  
