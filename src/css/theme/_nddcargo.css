@@ -2,16 +2,19 @@
   --ndd-cargo-primary-color: #cc0000;
   --ndd-cargo-secondary-color: #071f36;
   --ndd-cargo-third-color: #224180;
-  --ndd-cargo-link-hover-color: #b80000;
+  --ndd-cargo-link-color: rgba(0,0,0,0.2);
+  --ndd-cargo-link-hover-color: rgba(0,0,0,0.3);
+  --ndd-cargo-link-highlight-color: var(--ndd-cargo-primary-color);
+  --ndd-cargo-link-highlight-hover-color: #b80000;
 }
 
 /* --- LINKS --- */
 li.render-links--link {
-  background-color: var(--ndd-dark-color);
+  background-color: var(--ndd-cargo-link-color);
 }
 
 li.render-links--link:hover {
-  background-color: var(--ndd-dark-hover-color);
+  background-color: var(--ndd-cargo-link-hover-color);
   -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -19,10 +22,10 @@ li.render-links--link:hover {
 
 /* --- LINK DESTACADO --- 
   li.render-links--link:nth-child(4) {
-    background-color: var(--ndd-cargo-primary-color);
+    background-color: var(--ndd-cargo-link-highlight-color);
   }
   li.render-links--link:nth-child(4):hover {
-    background-color: var(--ndd-cargo-link-hover-color);
+    background-color: var(--ndd-cargo-link-highlight-hover-color);
     -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
