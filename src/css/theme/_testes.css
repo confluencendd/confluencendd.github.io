@@ -43,9 +43,9 @@
     }
   }
   
-  ul[aria-labelledby="Precisodeajuda"] > li.tile--spacious {
+  ul[aria-labelledby="Precisodeajuda"] > li {
     align-items: center;
-    /* color: var(--ndd-text-color); */
+    color: var(--ndd-text-color);
   }
   
   ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {

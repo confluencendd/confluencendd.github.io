@@ -29,21 +29,21 @@ li.render-links--link:nth-child(4):hover {
 }*/
 
 
-/* --- TILES HELP CATEGORY --- */
-
-/* @media (min-width: 768px) {
-  ul[aria-labelledby="$labelledby"] > li.tile {
-    grid-column: span 3 / span 3;
+  /* --- TILES HELP CATEGORY --- */
+  
+  @media (min-width: 768px) {
+    ul[aria-labelledby="Precisodeajuda"] > li.tile {
+      grid-column: span 3 / span 3;
+    }
   }
-}
-
-ul[aria-labelledby="$labelledby"] > li.tile--spacious {
-  align-items: center;
-  color: var(--ndd-text-color);
-}
-
-ul[aria-labelledby="$labelledby"] h3.tile__headline {
-  color: var(--ndd-text-color);
-} */
-
-/* --- TILES HELP CATEGORY --- */
+  
+  ul[aria-labelledby="Precisodeajuda"] > li {
+    align-items: center;
+    color: var(--ndd-text-color);
+  }
+  
+  ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
+    color: var(--ndd-text-color);
+  }
+  
+  /* --- TILES HELP CATEGORY --- */

@@ -32,19 +32,15 @@ li.render-links--link:nth-child(2):hover {
 
 /* ---------------------- TILES ---------------------- */
 
-/*h3.tile__headline {
-  color: var(--ndd-orbix-secondary-color);
-}*/
-
 /* --- TILES HELP CATEGORY --- */
-
+  
 @media (min-width: 768px) {
   ul[aria-labelledby="Precisodeajuda"] > li.tile {
     grid-column: span 3 / span 3;
   }
 }
 
-ul[aria-labelledby="Precisodeajuda"] > li.tile--spacious {
+ul[aria-labelledby="Precisodeajuda"] > li {
   align-items: center;
   color: var(--ndd-text-color);
 }
@@ -62,7 +58,7 @@ ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
   }
 }*/
 
-ul[aria-labelledby="Segurançaecompliance"] > li.tile--spacious {
+ul[aria-labelledby="Segurançaecompliance"] > li {
   align-items: center;
   color: var(--ndd-text-color);
 }
