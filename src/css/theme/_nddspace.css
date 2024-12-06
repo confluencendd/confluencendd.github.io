@@ -37,11 +37,11 @@
   
     /* --- TILES HELP CATEGORY --- */
     
-    /* @media (min-width: 768px) {
-      ul[aria-labelledby="Precisodeajuda"] > li.tile {
+    @media (min-width: 768px) {
+      ul[aria-labelledby="manuais"] > li.tile {
         grid-column: span 3 / span 3;
       }
-    } */
+    }
     
     ul[aria-labelledby="Precisodeajuda"] > li {
       align-items: center;
