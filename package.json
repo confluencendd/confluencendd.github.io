@@ -2,6 +2,10 @@
   "name": "custom-scripts",
   "version": "1.0.0",
   "scripts": {
+
+    "nddspace-build": "parcel build src/nddspace/app-hc-nddspace.js src/nddspace/app-hc-nddspace.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddspace-dev": "parcel watch src/nddspace/app-hc-nddspace.js src/nddspace/app-hc-nddspace.css --dist-dir dev/nddspace",
+
     "nddmove-build": "parcel build src/nddmove/app-hc-nddmove.js src/nddmove/app-hc-nddmove.css --dist-dir public/ --no-source-maps --no-cache",
     "nddmove-dev": "parcel watch src/nddmove/app-hc-nddmove.js src/nddmove/app-hc-nddmove.css --dist-dir dev/nddmove",
 
@@ -13,9 +17,6 @@
     
     "nddprint-build": "parcel build src/nddprint/app-hc-nddprint.js src/nddprint/app-hc-nddprint.css --dist-dir public/ --no-source-maps --no-cache",
     "nddprint-dev": "parcel watch src/nddprint/app-hc-nddprint.js src/nddprint/app-hc-nddprint.css --dist-dir dev/nddprint",
-    
-    "nddspace-build": "parcel build src/nddspace/app-hc-nddspace.js src/nddspace/app-hc-nddspace.css --dist-dir public/ --no-source-maps --no-cache",
-    "nddspace-dev": "parcel watch src/nddspace/app-hc-nddspace.js src/nddspace/app-hc-nddspace.css --dist-dir dev/nddspace",
 
     "nddcargo-build": "parcel build src/nddcargo/app-hc-nddcargo.js src/nddcargo/app-hc-nddcargo.css --dist-dir public/ --no-source-maps --no-cache",
     "nddcargo-dev": "parcel watch src/nddcargo/app-hc-nddcargo.js src/nddcargo/app-hc-nddcargo.css --dist-dir dev/nddcargo",

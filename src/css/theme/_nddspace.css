@@ -1,0 +1,66 @@
+:root {
+    --ndd-space-primary-color: #1EC1A6;
+    --ndd-space-secondary-color: #292929;
+    --ndd-space-third-color: #7944E0;
+    --ndd-space-link-color: rgba(0,0,0,0.2);
+    --ndd-space-link-hover-color: rgba(0,0,0,0.4);
+    --ndd-space-link-highlight-color: var(--ndd-space-primary-color);
+    --ndd-space-link-highlight-hover-color: #1BAE96;
+  }
+  
+  /* --- LINKS --- */
+  li.render-links--link {
+    background-color: var(--ndd-space-link-color);
+  }
+  
+  li.render-links--link:hover {
+    background-color: var(--ndd-space-link-hover-color);
+    -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  /* --- LINK DESTACADO --- 
+    li.render-links--link:nth-child(4) {
+      background-color: var(--ndd-space-link-highlight-color);
+    }
+    li.render-links--link:nth-child(4):hover {
+      background-color: var(--ndd-space-link-highlight-hover-color);
+      -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+      -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }*/
+  
+  /* ---------------------- HEADER ---------------------- */
+  
+  /* ---------------------- TILES ---------------------- */
+  
+    /* --- TILES HELP CATEGORY --- */
+    
+    /* @media (min-width: 768px) {
+      ul[aria-labelledby="Precisodeajuda"] > li.tile {
+        grid-column: span 3 / span 3;
+      }
+    } */
+    
+    ul[aria-labelledby="Precisodeajuda"] > li {
+      align-items: center;
+      color: var(--ndd-text-color);
+    }
+    
+    ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
+      color: var(--ndd-text-color);
+    }
+    
+    /* --- TILES HELP CATEGORY --- */
+  
+  /* ---------------------- TILES ---------------------- */
+  
+  /* ---------------------- CONTENT ---------------------- */
+  
+  /*strong > span[data-colorid] {
+      color: var(--ndd-space-primary-color);
+    }*/
+  
+  /* ---------------------- CONTENT ---------------------- */
+  

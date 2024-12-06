@@ -81,7 +81,8 @@ function isHomePage(url) {
         'https://helpcenter-nddprint.ndd.tech',
         'https://helpcenter-kubo.ndd.tech',
         'https://helpcenter-nddmove.ndd.tech',
-        'https://helpcenter-nddcargo.ndd.tech'
+        'https://helpcenter-nddcargo.ndd.tech',
+        'https://helpcenter-nddspace.ndd.tech'
     ];
 
     const languages = ['', '?l=pt', '?l=en', '?l=es', '?l=it'];
