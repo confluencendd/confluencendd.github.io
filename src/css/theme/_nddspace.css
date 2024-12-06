@@ -38,7 +38,7 @@
     /* --- TILES HELP CATEGORY --- */
     
     @media (min-width: 768px) {
-      ul[aria-labelledby="manuais"] > li.tile {
+      ul[aria-labelledby="Manuais"] > li.tile {
         grid-column: span 3 / span 3;
       }
     }
