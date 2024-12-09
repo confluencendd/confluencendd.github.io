@@ -10,6 +10,25 @@ Este guia orienta administradores na personalização do Help Center para integr
 - Certifique-se que o seu usuário do Github tenha permissão no repositório.
 - Certifique-se que o Help Center já foi configurado com as novas definições.
 
+## Neste artigo
+
+- [Guia Completo custom-script para Help Center](#guia-completo-custom-script-para-help-center)
+    - [Antes de iniciar](#antes-de-iniciar)
+  - [Neste artigo](#neste-artigo)
+  - [Passo 1: Clonar o repositório do projeto](#passo-1-clonar-o-repositório-do-projeto)
+  - [Passo 2: Instalar as dependências do projeto](#passo-2-instalar-as-dependências-do-projeto)
+  - [Passo 3: Estrutura de arquivos](#passo-3-estrutura-de-arquivos)
+  - [Passo 4: Configuração do JavaScript](#passo-4-configuração-do-javascript)
+  - [Passo 5: Atualização de rotas](#passo-5-atualização-de-rotas)
+  - [Passo 6: Traduções](#passo-6-traduções)
+    - [Categorias](#categorias)
+    - [Links](#links)
+    - [Tiles (documentos)](#tiles-documentos)
+  - [Passo 7: Redirecionamento de links](#passo-7-redirecionamento-de-links)
+  - [Passo 8: Personalização do Tema CSS](#passo-8-personalização-do-tema-css)
+  - [Passo 9: Compilação e publicação](#passo-9-compilação-e-publicação)
+
+
 ---
 
 ## Passo 1: Clonar o repositório do projeto
