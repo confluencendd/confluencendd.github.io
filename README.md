@@ -5,7 +5,7 @@ Este guia orienta administradores na personalização do Help Center para integr
 
 - Certifique-se de instalar [Visual studio code](https://code.visualstudio.com/).
 - Certifique-se de instalar o [Node.js](https://nodejs.org/pt).
-- Certifique de instalar o Git.
+- Certifique de instalar o [Git](https://git-scm.com/).
 - Certifique-se que o seu usuário do Github tenha permissão no repositório.
 - Certifique-se que o Help Center já foi configurado com as novas definições.
 
@@ -27,6 +27,8 @@ Este guia orienta administradores na personalização do Help Center para integr
 ---
 
 ## Passo 1: Clonar o repositório do projeto
+**DICA:**
+
 Você pode utilizar o [Github desktop](https://docs.github.com/pt/desktop) para realizar todas as ações do Git.
 
 1. Abra um terminal ou prompt de comando.
@@ -37,7 +39,6 @@ cd /caminho/do/diretorio
 3. Clone o repositório utilizando o comando:
 ```
 git clone https://github.com/confluencendd/confluencendd.github.io.git
-
 ```
 4. Após a clonagem, entre na pasta do projeto:
 ```
