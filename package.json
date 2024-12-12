@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "scripts": {
 
+    "nddfrete-build": "parcel build src/nddfrete/app-hc-nddfrete.js src/nddfrete/app-hc-nddfrete.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddfrete-dev": "parcel watch src/nddfrete/app-hc-nddfrete.js src/nddfrete/app-hc-nddfrete.css --dist-dir dev/nddfrete",
+
     "nddspace-build": "parcel build src/nddspace/app-hc-nddspace.js src/nddspace/app-hc-nddspace.css --dist-dir public/ --no-source-maps --no-cache",
     "nddspace-dev": "parcel watch src/nddspace/app-hc-nddspace.js src/nddspace/app-hc-nddspace.css --dist-dir dev/nddspace",
 
