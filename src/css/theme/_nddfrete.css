@@ -1,7 +1,7 @@
 :root {
     --ndd-frete-primary-color: #E24B00;
-    --ndd-frete-secondary-color: #F5F5F5;
-    --ndd-frete-third-color: #224180;
+    --ndd-frete-secondary-color: #292929;
+    --ndd-frete-third-color: #F5F5F5;
     --ndd-frete-link-color: rgba(0,0,0,0.2);
     --ndd-frete-link-hover-color: rgba(0,0,0,0.4);
     --ndd-frete-link-highlight-color: var(--ndd-frete-primary-color);
