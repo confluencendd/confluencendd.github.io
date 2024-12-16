@@ -47,7 +47,7 @@ function createArticleFeedbackComponent(language) {
             <div class="article-feedback-header">
                 <h5>${articleFeedbackText[language][0]}</h5>
                 <button type="button" id="article-feedback-button-close">
-                    <i class="bi bi-x-lg"></i>
+                    <i class="bi bi-x-lg" id="article-feedback-button-close"></i>
                 </button>
             </div>
             <div class="button-wrapper">
