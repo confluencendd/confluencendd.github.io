@@ -55,4 +55,19 @@ div.two-left-sidebar > .cell.aside img,
 div.three-with-sidebars > .cell.normal img,
 div.three-with-sidebars > .cell.sidebars img {
   box-shadow: none;
+  width: 100%;
+  max-width: 64px;
+}
+
+@media (max-width: 768px) {
+  div.two-equal > .cell.normal,
+  div.three-equal > .cell.normal,
+  div.two-right-sidebar > .cell.normal,
+  div.two-right-sidebar > .cell.aside,
+  div.two-left-sidebar > .cell.normal,
+  div.two-left-sidebar > .cell.aside,
+  div.three-with-sidebars > .cell.normal,
+  div.three-with-sidebars > .cell.sidebars {
+    margin-bottom: 24px !important;
+  }
 }

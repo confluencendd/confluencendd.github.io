@@ -1,6 +1,7 @@
 .article-feedback-container {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   gap: var(--ndd-size-medium);
   padding: var(--ndd-size-medium) var(--ndd-size-large);
@@ -20,9 +21,22 @@
     bottom 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
   transition: opacity 250ms, bottom 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
+
 .article-feedback-container.show {
   opacity: 1;
   bottom: var(--ndd-size-tyne);
+}
+
+.article-feedback-header {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.article-feedback-header button {
+  font-size: var(--ndd-size-medium);
 }
 
 .button-wrapper {
