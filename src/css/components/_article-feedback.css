@@ -306,3 +306,13 @@
   flex-direction: column;
   text-align: center;
 }
+
+/* MOBILE */
+
+@media only screen and (max-width: 600px) {
+  .header-dialog,
+  .dialog-article-feedback-content,
+  .header-dialog-finish {
+    width: 90%;
+  }
+}
