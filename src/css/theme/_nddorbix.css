@@ -54,6 +54,25 @@ ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
 
 /* --- TILES HELP CATEGORY --- */
 
+/* --- TILES MODULES CATEGORY --- */
+  
+@media (min-width: 768px) {
+  ul[aria-labelledby="Módulos"] > li.tile {
+    grid-column: span 3 / span 3;
+  }
+}
+
+ul[aria-labelledby="Módulos"] > li {
+  align-items: center;
+  color: var(--ndd-text-color);
+}
+
+/*ul[aria-labelledby="Módulos"] h3.tile__headline {
+  color: var(--ndd-text-color);
+}*/
+
+/* --- TILES HELP CATEGORY --- */
+
 /* --- TILES SECURITY CATEGORY --- */
 /*@media (min-width: 768px) {
   ul[aria-labelledby="Segurançaecompliance"] > li.tile {
