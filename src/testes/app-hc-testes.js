@@ -40,7 +40,7 @@ handleRoute({
         // translateTilesParams: commonParams,
         // translateCategoriesParams: commonParams,
         // translateHeaderLinksParams: commonParams,
-        // redirectLinksParams: commonParams,
+        redirectLinksParams: commonParams,
         translatePlaceholderSearchBarParams: { language: languagePicked },
         createTimeToReadComponentParams: { language: languagePicked }
 
