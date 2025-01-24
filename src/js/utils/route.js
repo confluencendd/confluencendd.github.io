@@ -1,3 +1,11 @@
+/**
+ * Função que serve para executar os scripts dependendo da rota.
+ * 
+ * @param {object} function - Nome da função que será executada.
+ * @param {object} params - Parâmetros que devem ser passados as funções.
+ * 
+ */
+
 export function handleRoute({ functions, params }) {
     const currentUrl = window.location.href;
 
@@ -15,11 +23,17 @@ export function handleRoute({ functions, params }) {
         functions.translateHeaderLinks(params.translateHeaderLinksParams);
 
     }
-    
+
 
     if (functions.translatePlaceholderSearchBar) {
-        
+
         functions.translatePlaceholderSearchBar(params.translatePlaceholderSearchBarParams);
+
+    }
+
+    if (functions.setRobotsMetaTag) {
+
+        functions.setRobotsMetaTag(params.setRobotsMetaTagParams)
 
     }
 

@@ -15,10 +15,10 @@ import { formatBreadcrumbs } from '../js/utils/breadcrumbs';
 import { createTimeToReadComponent } from '../js/components/header-bar/time-to-read';
 
 import { renderArticleFeedbackComponent } from '../js/components/article-feedback/article-feedback';
+import { setRobotsMetaTag } from '../js/utils/setRobotsMetaTag';
 
-// Parâmetros para execução das funções
+// Parâmetros comuns para execução das funções
 const languagePicked = getCurrentLanguage();
-console.log(languagePicked);
 
 const currentProduct = getCurrentProduct();
 const commonParams = { product: currentProduct, language: languagePicked };
@@ -33,7 +33,8 @@ handleRoute({
         translatePlaceholderSearchBar,
         redirectLinks,
         formatBreadcrumbs,
-        createTimeToReadComponent
+        createTimeToReadComponent,
+        setRobotsMetaTag,
     },
     params: {
         renderArticleFeedbackComponentParams: { language: languagePicked },
@@ -42,7 +43,7 @@ handleRoute({
         // translateHeaderLinksParams: commonParams,
         redirectLinksParams: commonParams,
         translatePlaceholderSearchBarParams: { language: languagePicked },
-        createTimeToReadComponentParams: { language: languagePicked }
-
+        createTimeToReadComponentParams: { language: languagePicked },
+        setRobotsMetaTagParams: { content: 'noindex, nofollow' }
     }
 });
