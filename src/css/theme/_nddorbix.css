@@ -56,11 +56,11 @@ ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
 
 /* --- TILES MODULES CATEGORY --- */
   
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   ul[aria-labelledby="Módulos"] > li.tile {
     grid-column: span 3 / span 3;
   }
-}*/
+}
 
 /*ul[aria-labelledby="Módulos"] > li {
   align-items: center;
