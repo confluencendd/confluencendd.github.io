@@ -97,7 +97,9 @@ function isHomePage(url) {
         'https://helpcenter-nddmove.ndd.tech',
         'https://helpcenter-nddcargo.ndd.tech',
         'https://helpcenter-nddspace.ndd.tech',
-        'https://helpcenter-nddfreteembarcador.ndd.tech/'
+        'https://helpcenter-nddfreteembarcador.ndd.tech/',
+        'https://helpcenter.nddelog.com/',
+        'https://helpcenter-nddelog.scrollhelp.site/'
     ];
 
     const languages = ['', '?l=pt', '?l=en', '?l=es', '?l=it'];

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "scripts": {
 
+    "nddelog-build": "parcel build src/nddelog/app-hc-nddelog.js src/nddelog/app-hc-nddelog.css --dist-dir public/ --no-source-maps --no-cache",
+    "nddelog-dev": "parcel watch src/*/*.js src/*/*.css --dist-dir Z:\\",
+
     "nddfrete-build": "parcel build src/nddfrete/app-hc-nddfrete.js src/nddfrete/app-hc-nddfrete.css --dist-dir public/ --no-source-maps --no-cache",
     "nddfrete-dev": "parcel watch src/nddfrete/app-hc-nddfrete.js src/nddfrete/app-hc-nddfrete.css --dist-dir dev/nddfrete",
 

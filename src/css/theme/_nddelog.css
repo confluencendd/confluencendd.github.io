@@ -1,0 +1,65 @@
+:root {
+    --ndd-elog-primary-color: #38539A;
+    --ndd-elog-secondary-color: #22325C;
+    --ndd-elog-third-color: #EBEEF5;
+    --ndd-elog-link-color: rgba(0,0,0,0.2);
+    --ndd-elog-link-hover-color: rgba(0,0,0,0.4);
+    --ndd-elog-link-highlight-color: var(--ndd-elog-primary-color);
+    --ndd-elog-link-highlight-hover-color: #334B8B; 
+  }
+  
+  /* --- LINKS --- */
+  li.render-links--link {
+    background-color: var(--ndd-elog-link-color);
+  }
+  
+  li.render-links--link:hover {
+    background-color: var(--ndd-elog-link-hover-color);
+    -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  /* --- LINK DESTACADO --- 
+    li.render-links--link:nth-child(4) {
+      background-color: var(--ndd-elog-link-highlight-color);
+    }
+    li.render-links--link:nth-child(4):hover {
+      background-color: var(--ndd-elog-link-highlight-hover-color);
+      -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+      -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }*/
+  
+  /* ---------------------- HEADER ---------------------- */
+  
+  /* ---------------------- TILES ---------------------- */
+  
+    /* --- TILES HELP CATEGORY --- */
+    
+    /* @media (min-width: 768px) {
+      ul[aria-labelledby="Precisodeajuda"] > li.tile {
+        grid-column: span 3 / span 3;
+      }
+    } */
+    
+    ul[aria-labelledby="Precisodeajuda"] > li {
+      align-items: center;
+      color: var(--ndd-text-color);
+    }
+    
+    ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
+      color: var(--ndd-text-color);
+    }
+    
+    /* --- TILES HELP CATEGORY --- */
+  
+  /* ---------------------- TILES ---------------------- */
+  
+  /* ---------------------- CONTENT ---------------------- */
+  
+  /*strong > span[data-colorid] {
+      color: var(--ndd-elog-primary-color);
+    }*/
+  
+  /* ---------------------- CONTENT ---------------------- */
